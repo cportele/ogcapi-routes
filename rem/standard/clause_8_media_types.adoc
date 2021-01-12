@@ -1,0 +1,3 @@
+== Media Types
+
+#TODO: Just use application/geo+json? Probably yes, for interoperability with consumers that know GeoJSON.#
