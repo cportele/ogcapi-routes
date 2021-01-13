@@ -63,6 +63,8 @@ OpenAPI 3.0 to specify schema components.
 This requirements class specifies the complete representation of a route,
 i.e., a representation that includes all information about the route.
 
+See <<rem-example-full>> for an example of a full route.
+
 [cols="1,4",width="90%"]
 |===
 2+|*Requirements Class*
@@ -204,19 +206,6 @@ items:
 * otherwise: identical to the end point in the definition of the route.
 ^|D |If the feature has a property `timestamp`, it SHALL be of type `string`, format `date-time`, and indicate the (estimated) arrival time.
 |===
-
-==== Example
-
-The following example of a "full" route also includes JSON-LD annotations to associate the JSON structures with GeoJSON and Route vocabularies.
-
-[[rem-example]]
-.Sample route
-=================
-[source,JSON]
-----
-include::code/rem-example.json[]
-----
-=================
 
 [[rc_rem-overview]]
 === Requirements class "Route Exchange Model (overview)"
