@@ -3,7 +3,7 @@
 
 This clause specifies a second API option for a Routing API that supports more-or-less the same capabilities as the Routing API defined in the previous clause and re-uses the Route Exchange Model. However, it is based on the OGC API Processes standards and defined as a profile of that standard.
 
-#TODO: Do we want to keep the OGC API Processes option? If yes, we need to align with the latest draft. This is an old version based on an outdated draft of OGC API Processes.#
+#TODO: Do we want to keep the OGC API Processes option? If yes, we need to align with the latest draft. This is an old version based on an outdated draft of OGC API Processes. As discussed in the meeting on 2021-01-12, the preference is for a single API with explicit Route resources as described in <<routing-api>>. We will analyse, if the changes to OGC API Processes in recent month support that we can basically merge the two approaches without complicating the API. If that is not possible, an OGC API Processes profile for routing could be specified as a separate document, if there is interest, potentially by another group.#
 
 NOTE: This option is to a large extent specified by the OGC API - Processes candidate standard. It has additional requirements and conformance classes that mirror the ones from the first option. To avoid a lot of repetition, this clause currently does not define each of these classes formally like for the first option, but describes how each class of the first option is mapped to the OGC API Processes option.
 
@@ -30,7 +30,7 @@ process resource in the API (`/processes/routing`).
 The following table provides an overview of the resources. For details
 see the draft OGC API - Processes specification.
 
-Note that the OGC API Common cite:[OgcApiCommon] requirements apply to this option, too.
+Note that the OGC API Common requirements apply to this option, too.
 
 [#tldrwps,reftext='{table-caption} {counter:table-num}']
 .Overview of resources and applicable HTTP methods in the WPS profile

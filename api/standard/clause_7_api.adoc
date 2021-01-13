@@ -55,7 +55,7 @@ which is specified in the 'Delete route' requirements class.
 
 ==== OGC API Common (Core)
 
-At the time of writing, the OGC API - Common draft specification cite:[OgcApiCommon] is not yet an approved standard. A draft is in development, based on the generic concepts of the OGC API - Features - Part 1: Core standard (OGC 17-069r3),
+At the time of writing, the OGC API - Common draft specification is not yet an approved standard. A draft is in development, based on the generic concepts of the OGC API - Features - Part 1: Core standard (OGC 17-069r3),
 but it is in an early stage of the standardization process. In order to avoid duplicating content this
 document does not copy the basic requirements, recommendations and permissions
 from OGC API Common/Features. The following normative statements are by reference

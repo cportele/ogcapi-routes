@@ -3,7 +3,7 @@
 
 === Overview
 
-This document specifies a single encoding of the Route model described in the previous clause for the creation and transfer of route information between a variety of routing components ("Route Exchange Model"). The encoding uses [GeoJSON](https://geojson.org/) to represent routes according to the model described above and is defined in the next clause. 
+This document specifies a single encoding of the Route model described in the previous clause for the creation and transfer of route information between a variety of routing components ("Route Exchange Model"). The encoding uses https://geojson.org/[GeoJSON] to represent routes according to the model described above and is defined in the next clause. 
 
 A GeoJSON feature collection is used to represent the Route. Each RouteComponent is represented by a GeoJSON feature in the feature collection of the route. 
 
@@ -12,8 +12,8 @@ GeoJSON is used for the following reasons:
 * lightweight
 * extensible
 * widely supported in libraries and tools
-* consistent with the emerging [OGC API standards](http://www.ogcapi.org/)
-* an [open standard](https://tools.ietf.org/html/rfc7946)
+* consistent with the emerging http://www.ogcapi.org/[OGC API standards]
+* an https://tools.ietf.org/html/rfc7946[open standard]
 
 The Route Exchange Model supports three variants:
 

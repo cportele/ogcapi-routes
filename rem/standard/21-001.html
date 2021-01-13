@@ -1756,7 +1756,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_overview"><a class="anchor" href="#_overview"></a>7.1. Overview</h3>
 <div class="paragraph">
-<p>This document specifies a single encoding of the Route model described in the previous clause for the creation and transfer of route information between a variety of routing components ("Route Exchange Model"). The encoding uses [GeoJSON](<a href="https://geojson.org/" class="bare">https://geojson.org/</a>) to represent routes according to the model described above and is defined in the next clause.</p>
+<p>This document specifies a single encoding of the Route model described in the previous clause for the creation and transfer of route information between a variety of routing components ("Route Exchange Model"). The encoding uses <a href="https://geojson.org/">GeoJSON</a> to represent routes according to the model described above and is defined in the next clause.</p>
 </div>
 <div class="paragraph">
 <p>A GeoJSON feature collection is used to represent the Route. Each RouteComponent is represented by a GeoJSON feature in the feature collection of the route.</p>
@@ -1776,10 +1776,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>widely supported in libraries and tools</p>
 </li>
 <li>
-<p>consistent with the emerging [OGC API standards](<a href="http://www.ogcapi.org/" class="bare">http://www.ogcapi.org/</a>)</p>
+<p>consistent with the emerging <a href="http://www.ogcapi.org/">OGC API standards</a></p>
 </li>
 <li>
-<p>an [open standard](<a href="https://tools.ietf.org/html/rfc7946" class="bare">https://tools.ietf.org/html/rfc7946</a>)</p>
+<p>an <a href="https://tools.ietf.org/html/rfc7946">open standard</a></p>
 </li>
 </ul>
 </div>
@@ -3676,7 +3676,7 @@ items:
 <h2 id="_media_types"><a class="anchor" href="#_media_types"></a>8. Media Types</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><mark>TODO: Just use application/geo+json? Probably yes, for interoperability with consumers that know GeoJSON.</mark></p>
+<p><mark>TODO: Use application/geo+json and do not register a new media type (for interoperability with consumers that know GeoJSON and its media type).</mark></p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
